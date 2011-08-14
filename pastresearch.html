@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Past Research | David Tagatac, M.S.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="icon" type="image/png" href="images/coa.png">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/interface.js"></script>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 7]>
+ <style type="text/css">
+ .dock img { behavior: url(iepngfix.htc) }
+ </style>
+<![endif]-->
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6674789-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+<!--top dock -->
+<div class="dock" id="dock">
+  <div class="dock-container">
+      <img src="images/menu-bg2.gif" style="float: left;"/>
+	  <a class="dock-item" href="index.html"><img src="images/home.png" alt="about" /><span>About</span></a>
+	  <a class="dock-item"><img src="images/history.png" alt="past research" /><span>Past Research</span></a>
+	  <a class="dock-item" href="resume.pdf"><img src="images/portfolio.png" alt="résumé" /><span>Résumé (PDF)</span></a>
+	  <a class="dock-item" href="contact.html"><img src="images/email.png" alt="contact" /><span>Contact</span></a>
+	  <a class="dock-item" href="http://tagatac.blogspot.com"><img src="images/rss.png" alt="blog" /><span>Blog</span></a>
+  </div> 
+</div>
+
+<div class="main" id="main">
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Past Research</h1>
+  <ol class="text">
+	<li>
+	  <h2>Fabrication of Vanadium Oxide (UCSD, 2006-2008)</h2>
+	  <img src="images/xraydiff.png" align=left hspace=10 title="X-ray Diffraction Analysis of V2O3"></img>
+	  <font size=4>A</font>s a graduate researcher at UCSD, I worked primarily on the fabrication and characterization of thin film vanadium sesquioxide (V2O3). My role was experiment design and execution, with the direction of a post-doc. The work was largely an iterative process of moving around in the high vacuum electron plasma sputtering fabrication parameter space of (total pressure, relative pressures of nitrogen and oxygen, anode voltage, anode current, and current mode - AC or DC), and then using various characterization techniques (including x-ray diffraction and x-ray spectroscopy) to evaluate.
+	</li>
+    <li>
+      <h2>Nanocharacterization of Pentacene (Cornell, 2005-2006)</h2>
+	  <img src="images/pent.jpg" align=right hspace=10 title="AFM Image of Pentacene Grains"></img>
+	  <ul>
+	    <li>
+	      <h3>Grain Size Estimation</h3>
+	      <font size=4>T</font>wo different imaging methods were used to give estimates of thin-film pentacene grain sizes.  It is believed that AFM is the more accurate of the two.<br>
+          <br>
+		  <ul>
+		    <li><a href="stemgrainsize.ppt">Scanning Transmission Electron Microscopy</a> (.ppt)</li>
+		    <li><a href="afmgrainsize.ppt">Atomic Force Microscopy</a> (.ppt)</li>
+		  </ul>
+		  <br>
+        </li>
+	    <li>
+	      <h3>Overall Imaging Method Comparison</h3>
+	      <font size=4>I</font>t was shown that AFM is best for imaging topographic information of pentacene thin films, while STEM is best for imaging crystallographic features (such as twinning and crystal orientation).<br>
+		  <br>
+		  <ul>
+		    <li><a href="imagingmethodcomparison.ppt">STEM vs AFM</a> (.ppt)</li>
+	        <li><a href="pentaceneposter.pdf">STEM vs AFM vs SEM</a> (.pdf)</li>
+		  </ul>
+		  <br>
+        </li>
+	  </ul>
+	</li>
+  </ol>
+</div>
+
+<!--dock menu JS options -->
+<script type="text/javascript">
+	
+	$(document).ready(
+		function()
+		{
+			$('#dock').Fisheye(
+				{
+					maxWidth: 50,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container',
+					itemWidth: 40,
+					proximity: 90,
+					halign : 'center'
+				}
+			)
+		}
+	);
+
+</script>
+</body>
+</html>

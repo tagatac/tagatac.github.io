@@ -1,5 +1,5 @@
 body {
-	font: 11px Arial, Helvetica, sans-serif;
+	font: 14px Arial, Helvetica, sans-serif;
 	background: #ffffff url(images/main-bg.gif);
 	padding: 0;
 	margin: 0;
@@ -18,7 +18,9 @@ img {
 	position: absolute;
 	height: 50px;
 	background: url(images/dock-bg2.gif);
-	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 a.dock-item {
 	display: block;
@@ -36,39 +38,19 @@ a.dock-item {
 	width: 100%; 
 }
 .dock-item span {
-	display: none; 
-	padding-left: 20px;
-}
-
-/* dock2 - bottom */
-#dock2 {
-	width: 100%;
-	bottom: 0px;
-	position: absolute;
-	left: 0px;
-}
-.dock-container2 {
-	position: absolute;
-	height: 50px;
-	background: url(images/dock-bg.gif);
-	padding-left: 20px;
-}
-a.dock-item2 {
-	display: block; 
-	font: bold 12px Arial, Helvetica, sans-serif;
-	width: 40px; 
-	color: #000; 
-	bottom: 0px; 
-	position: absolute;
-	text-align: center;
-	text-decoration: none;
-}
-.dock-item2 span {
 	display: none;
 	padding-left: 20px;
 }
-.dock-item2 img {
-	border: none; 
-	margin: 5px 10px 0px; 
-	width: 100%; 
+
+.main {
+	position: relative;
+	width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text {
+	position: relative;
+	text-align: left;
+	line-height: 1.2em;
 }
