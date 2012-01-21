@@ -1,6 +1,8 @@
 body {
 	font: 14px Arial, Helvetica, sans-serif;
-	background: #ffffff url(images/main-bg.gif);
+	background-image: url(images/whitebg.png), url(images/main-bg.gif);
+	background-position: center top, left top;
+	background-repeat: repeat-y, repeat;
 	padding: 0;
 	margin: 0;
 }
@@ -13,6 +15,7 @@ img {
 	position: relative; 
 	height: 50px; 
 	text-align: center;
+	z-index: 100;
 }
 .dock-container {
 	position: absolute;
