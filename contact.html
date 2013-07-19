@@ -1,114 +1,81 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Contact | David Tagatac</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="icon" type="image/png" href="images/coa.png">
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/interface.js"></script>
+	<title>Contact | David Tagatac</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="icon" type="image/png" href="images/coa.png">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/interface.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
 
-<link href="style.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 7]>
+		<style type="text/css">
+			.dock img { behavior: url(iepngfix.htc) }
+		</style>
+	<![endif]-->
 
-<!--[if lt IE 7]>
- <style type="text/css">
- .dock img { behavior: url(iepngfix.htc) }
- </style>
-<![endif]-->
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-6674789-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-6674789-2']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </head>
+
 <body>
 <!--top dock -->
-<div class="dock" id="dock">
-  <div class="dock-container">
-      <img src="images/menu-bg2.gif" style="float: left;"/>
-	  <a class="dock-item" href="index.html"><img src="images/home.png" alt="about" /><span>About</span></a>
-	  <a class="dock-item" href="pastresearch.html"><img src="images/history.png" alt="past research" /><span>Past Research</span></a>
-	  <a class="dock-item" href="cv.pdf"><img src="images/portfolio.png" alt="curriculum vitæ" /><span>Curriculum Vitæ (PDF)</span></a>
-	  <a class="dock-item"><img src="images/email.png" alt="contact" /><span>Contact</span></a>
-	  <a class="dock-item" href="http://tagatac.blogspot.com"><img src="images/rss.png" alt="blog" /><span>Blog</span></a>
-  </div> 
-</div>
+	<div class="dock" id="dock">
+		<div class="dock-container">
+			<img src="images/menu-bg2.gif" style="float: left;"/>
+			<a class="dock-item" href="index.html"><img src="images/home.png" alt="about" /><span>About</span></a>
+			<a class="dock-item" href="pastresearch.html"><img src="images/history.png" alt="past research" /><span>Past Research</span></a>
+			<a class="dock-item" href="cv.pdf"><img src="images/portfolio.png" alt="curriculum vitæ" /><span>Curriculum Vitæ (PDF)</span></a>
+			<a class="dock-item"><img src="images/email.png" alt="contact" /><span>Contact</span></a>
+			<a class="dock-item" href="http://tagatac.blogspot.com"><img src="images/rss.png" alt="blog" /><span>Blog</span></a>
+		</div> 
+	</div>
 
-<div class="main" id="main" style="width:525px;">
-  <br>
-  <br>
-  <br>
-  <br>
-  <h1>Contact</h1>
-  <ul class="text">
-	<li><b>Email:</b> dtagatac [at] cs [dot] columbia [dot] edu</li>
-	<li><b>Twitter:</b>
+	<div class="main" id="main" style="width:610px;">
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1>Contact</h1>
+		<ul class="text">
+			<li><b>Email:</b> dtagatac [at] cs [dot] columbia [dot] edu</li>
+			<li><br>
+				<!--Twitter widget-->
+				<a class="twitter-timeline" href="https://twitter.com/Tagatac" data-widget-id="358277909292646400">Tweets by @Tagatac</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</li>
+		</ul>
+	</div>
 
-<!--Twitter widget-->
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 6,
-  interval: 6000,
-  width: 450,
-  height: 900,
-  theme: {
-    shell: {
-      background: '#d9edff',
-      color: '#000000'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#000000',
-      links: '#0000ff'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: false,
-    hashtags: true,
-    timestamp: true,
-    avatars: false,
-    behavior: 'all'
-  }
-}).render().setUser('Tagatac').start();
-</script>
-  </ul>
-</div>
-
-<!--dock menu JS options -->
-<script type="text/javascript">
+	<!--dock menu JS options -->
+	<script type="text/javascript">
 	
-	$(document).ready(
-		function()
-		{
-			$('#dock').Fisheye(
-				{
-					maxWidth: 50,
-					items: 'a',
-					itemsText: 'span',
-					container: '.dock-container',
-					itemWidth: 40,
-					proximity: 90,
-					halign : 'center'
-				}
-			)
-		}
-	);
+		$(document).ready(
+			function()
+			{
+				$('#dock').Fisheye(
+					{
+						maxWidth: 50,
+						items: 'a',
+						itemsText: 'span',
+						container: '.dock-container',
+						itemWidth: 40,
+						proximity: 90,
+						halign : 'center'
+					}
+				)
+			}
+		);
 
-</script>
+	</script>
 </body>
 </html>
