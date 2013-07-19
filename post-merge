@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# This file is meant to be copied to
+# /import/html/raid2013/.git/hooks to re-apply permissions after a pull
+
+# make folders executable but unreadable for others
+find . \( ! -regex '\.\|.*/\..*' \) -type d -exec chmod 711 {} +
+# regular files: rw access for the owner and the 'raid2013' group,
+# r access for others (web access)
+find . \( ! -regex '.*/\..*' \) -type f -exec chmod 644 {} +
+# hide the RAID2013 test
+[ -e raid2013test ] && chmod 700 raid2013test
+# make this script executable to owner and group and inaccessible to others
+chmod 700 post-merge
