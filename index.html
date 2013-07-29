@@ -1,84 +1,78 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>About | David Tagatac</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="icon" type="image/png" href="images/coa.png" />
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/interface.js"></script>
+	<title>About | David Tagatac</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="icon" type="image/png" href="images/coa.png" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/interface.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
 
-<link href="style.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 7]>
+		<style type="text/css">
+			.dock img { behavior: url(iepngfix.htc) }
+		</style>
+	<![endif]-->
 
-<!--[if lt IE 7]>
- <style type="text/css">
- .dock img { behavior: url(iepngfix.htc) }
- </style>
-<![endif]-->
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-6674789-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-6674789-2']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </head>
+
 <body>
-<!--top dock -->
-<div class="dock" id="dock">
-  <div class="dock-container">
-      <img src="images/menu-bg2.gif" style="float: left;" alt="" />
-	  <a class="dock-item"><img src="images/home.png" alt="about" /><span>About</span></a>
-	  <a class="dock-item" href="pastresearch.html"><img src="images/history.png" alt="past research" /><span>Past Research</span></a>
-	  <a class="dock-item" href="cv.pdf"><img src="images/portfolio.png" alt="curriculum vitæ" /><span>Curriculum Vitæ (PDF)</span></a>
-	  <a class="dock-item" href="contact.html"><img src="images/email.png" alt="contact" /><span>Contact</span></a>
-	  <a class="dock-item" href="http://tagatac.blogspot.com"><img src="images/rss.png" alt="blog" /><span>Blog</span></a>
-  </div> 
-</div>
+	<!--top dock -->
+	<div class="dock" id="dock">
+		<div class="dock-container">
+			<img src="images/menu-bg2.gif" style="float: left;" alt="" />
+			<a class="dock-item"><img src="images/home.png" alt="about" /><span>About</span></a>
+			<a class="dock-item" href="pastresearch.html"><img src="images/history.png" alt="past research" /><span>Past Research</span></a>
+			<a class="dock-item" href="contact.html"><img src="images/email.png" alt="contact" /><span>Contact</span></a>
+			<a class="dock-item" href="http://tagatac.blogspot.com"><img src="images/rss.png" alt="blog" /><span>Blog</span></a>
+			<a class="dock-item" href="http://uxr.tagatac.net"><img src="images/LXRlogo64.jpeg" style= "border: 1px solid #000000" alt="UXR" /><span>Uncommon Cross-Referencer</span></a>
+		</div> 
+	</div>
 
-<div class="main" id="main">
-  <br />
-  <br />
-  <br />
-  <br />
-  <h1>David Tagatac</h1>
-  <img src="images/mug.png" alt=""></img><br />
-  <p class="text">
-    <font size="5">H</font>ello world, I am a computer science graduate student at <a href="http://www.cs.columbia.edu/">Columbia University in the City of New York</a>.  I am currently investigating the effects of synchronization scheduling on concurrent program insecurity.  Before joining Columbia in 2012, I assisted the <a href="http://npp.gsfc.nasa.gov/">Suomi NPP weather satellite</a> ground systems team with large data flow and distributed processing support.
-  </p>
-  <p class="text">
-    <font size="5">I</font>n a previous life, I was a condensed matter physicist at UCSD, earning a Materials Science M.S. there in 2007, and an Engineering Physics B.S. at Cornell University before that in 2006.
-  </p>
-</div>
+	<div class="main" id="main">
+		<br />
+		<br />
+		<br />
+		<br />
+		<h1>David Tagatac</h1>
+		<img src="images/mug.png" alt=""></img><br />
+		<p class="text">
+			<font size="5">H</font>ello world, I am a computer science graduate student at <a href="http://www.cs.columbia.edu/">Columbia University in the City of New York</a>.  I am currently investigating the effects of synchronization scheduling on concurrent program insecurity.  Before joining Columbia in 2012, I assisted the <a href="http://npp.gsfc.nasa.gov/">Suomi NPP weather satellite</a> ground systems team with large data flow and distributed processing support.
+		</p>
+		<p class="text">
+			<font size="5">I</font>n a previous life, I was a condensed matter physicist at UCSD, earning a Materials Science M.S. there in 2007, and an Engineering Physics B.S. at Cornell University before that in 2006.
+		</p>
+	</div>
 
-<!--dock menu JS options -->
-<script type="text/javascript">
-	
-	$(document).ready(
-		function()
-		{
-			$('#dock').Fisheye(
-				{
-					maxWidth: 50,
-					items: 'a',
-					itemsText: 'span',
-					container: '.dock-container',
-					itemWidth: 40,
-					proximity: 90,
-					halign : 'center'
-				}
-			)
-		}
-	);
-
-</script>
+	<!--dock menu JS options -->
+	<script type="text/javascript">
+		$(document).ready(
+			function()
+			{
+				$('#dock').Fisheye(
+					{
+						maxWidth: 50,
+						items: 'a',
+						itemsText: 'span',
+						container: '.dock-container',
+						itemWidth: 40,
+						proximity: 90,
+						halign : 'center'
+					}
+				)
+			}
+		);
+	</script>
 </body>
 </html>
