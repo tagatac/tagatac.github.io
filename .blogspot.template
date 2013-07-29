@@ -5,7 +5,6 @@
 <head>
   <b:include data='blog' name='all-head-content'/>
   <title>Blog | David Tagatac</title>
-  <link href='http://www.cs.columbia.edu/~dtagatac/images/coa.png' rel='icon' type='image/png'/>
   <script src='http://www.cs.columbia.edu/~dtagatac/js/jquery.js' type='text/javascript'/>
   <script src='http://www.cs.columbia.edu/~dtagatac/js/interface.js' type='text/javascript'/>
   <link href='http://www.cs.columbia.edu/~dtagatac/bloggerstyle.css' rel='stylesheet' type='text/css'/>
@@ -504,10 +503,10 @@ head.appendChild(script);
   <div class="dock" id="dock">
     <div class="dock-container">
       <img src="http://www.cs.columbia.edu/~dtagatac/images/menu-bg2.gif" style="float: left;" alt="" />
-      <a class="dock-item"><img src="http://www.cs.columbia.edu/~dtagatac/images/home.png" alt="about" /><span>About</span></a>
+      <a class="dock-item" href="http://www.cs.columbia.edu/~dtagatac/index.html"><img src="http://www.cs.columbia.edu/~dtagatac/images/home.png" alt="about" /><span>About</span></a>
       <a class="dock-item" href="http://www.cs.columbia.edu/~dtagatac/pastresearch.html"><img src="http://www.cs.columbia.edu/~dtagatac/images/history.png" alt="past research" /><span>Past Research</span></a>
       <a class="dock-item" href="http://www.cs.columbia.edu/~dtagatac/contact.html"><img src="http://www.cs.columbia.edu/~dtagatac/images/email.png" alt="contact" /><span>Contact</span></a>
-      <a class="dock-item" href="http://tagatac.blogspot.com"><img src="http://www.cs.columbia.edu/~dtagatac/images/rss.png" alt="blog" /><span>Blog</span></a>
+      <a class="dock-item"><img src="http://www.cs.columbia.edu/~dtagatac/images/rss.png" alt="blog" /><span>Blog</span></a>
       <a class="dock-item" href="http://uxr.tagatac.net"><img src="http://www.cs.columbia.edu/~dtagatac/images/LXRlogo64.jpeg" style= "border: 1px solid #000000" alt="UXR" /><span>Uncommon Cross-Referencer</span></a>
     </div> 
   </div>
