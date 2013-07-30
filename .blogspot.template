@@ -507,7 +507,7 @@ head.appendChild(script);
       <a class="dock-item" href="http://www.cs.columbia.edu/~dtagatac/pastresearch.html"><img src="http://www.cs.columbia.edu/~dtagatac/images/history.png" alt="past research" /><span>Past Research</span></a>
       <a class="dock-item" href="http://www.cs.columbia.edu/~dtagatac/contact.html"><img src="http://www.cs.columbia.edu/~dtagatac/images/email.png" alt="contact" /><span>Contact</span></a>
       <a class="dock-item"><img src="http://www.cs.columbia.edu/~dtagatac/images/rss.png" alt="blog" /><span>Blog</span></a>
-      <a class="dock-item" href="http://uxr.tagatac.net"><img src="http://www.cs.columbia.edu/~dtagatac/images/LXRlogo64.jpeg" style= "border: 1px solid #000000" alt="UXR" /><span>Uncommon Cross-Referencer</span></a>
+      <a class="dock-item" href="http://uxr.tagatac.net"><img src="http://www.cs.columbia.edu/~dtagatac/images/LXRlogo64.jpeg" style= "border: 1px solid #000000" alt="UXR" /><span>UXR</span></a>
     </div> 
   </div>
 
