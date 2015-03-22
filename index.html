@@ -1,18 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>About | David Tagatac</title>
+	<title>David Tagatac | Columbia University</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="icon" type="image/png" href="images/coa.png" />
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/interface.js"></script>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-
-	<!--[if lt IE 7]>
-		<style type="text/css">
-			.dock img { behavior: url(iepngfix.htc) }
-		</style>
-	<![endif]-->
 
 	<!-- Google Analytics -->
 	<script type="text/javascript">
@@ -28,51 +18,59 @@
 </head>
 
 <body>
-	<!--top dock -->
-	<div class="dock" id="dock">
-		<div class="dock-container">
-			<img src="images/menu-bg2.gif" style="float: left;" alt="" />
-			<a class="dock-item"><img src="images/home.png" alt="about" /><span>About</span></a>
-			<a class="dock-item" href="pastresearch.html"><img src="images/history.png" alt="past research" /><span>Past Research</span></a>
-			<a class="dock-item" href="contact.html"><img src="images/email.png" alt="contact" /><span>Contact</span></a>
-			<a class="dock-item" href="http://tagatac.blogspot.com"><img src="images/rss.png" alt="blog" /><span>Blog</span></a>
-			<a class="dock-item" href="http://uxr.tagatac.net"><img src="images/LXRlogo64.jpeg" style= "border: 1px solid #000000" alt="UXR" /><span>UXR</span></a>
-		</div> 
+	<div>
+		<table>
+			<tr>
+				<td style="padding:20px">
+					<img src="images/mug.png" alt=""></img><br />
+				</td>
+				<td>
+					<h1>David Tagatac</h1>
+					Ph.D. Student<br />
+					<a href="http://ids.cs.columbia.edu/">Cybersecurity Group</a><br />
+					<a href="http://www.cs.columbia.edu/">Department of Computer Science</a><br />
+					<a href="http://www.columbia.edu/">Columbia University in the City of New York</a><br />
+					<br />
+					<strong>Email</strong>: dtagatac@cs.columbia.edu<br />
+					<strong>Phone</strong>: 646-775-6087<br />
+					<strong>Office</strong>: CEPSR 612<br />
+				</td>
+			</tr>
+		</table>
+		<h2>Research Interests</h2>
+		<ul>
+			<li>Concurrent Program Security</li>
+			<li>Language-theoretic Security</li>
+		</ul>
+		<br /><h2>Peer-Reviewed Research</h2>
+		<ul>
+			<li>
+				<a href="files/TRposter.pdf">Poster Abstract: Time Randomization to Thwart Concurrency Bug Exploitation</a><br />
+				David M. Tagatac, Salvatore J. Stolfo<br />
+				<i>35th IEEE Symposium on Security and Privacy, 2014</i>
+			</li>
+		</ul>
+		<br /><h2>Education</h2>
+		<ul>
+			<li>B.S. Engineering Physics, Cornell University</li>
+			<li>M.S. Materials Science and Engineering, University of California, San Diego</li>
+		</ul>
+		<br /><h2>Professional Experience</h2>
+		<ul>
+			<li>Software Engineer, <a href="http://www.gdit.com/">General Dynamics Information Technology</a>, <a href="http://npp.gsfc.nasa.gov/">Suomi-NPP</a> ground systems team</li>
+			<li>Program Analyst, <a href="http://www.drfirst.com/">DrFirst</a></li>
+		</ul>
+		<br /><h2>Teaching</h2>
+		<ul>
+			<li>Instructor, <a href="https://piazza.com/columbia/summer2014/cpron0219002/home">Introduction to Programming in C</a>, Summer 2014</li>
+			<li>Teaching Assistant, Intrusion Detection Systems, Spring 2015</li>
+			<li>Teaching Assistant, Operating Systems I, Fall 2014</li>
+			<li>Teaching Assistant, Introduction to Intrusion Detection Systems, Spring 2014</li>
+		</ul>
+		<br /><h2>Service</h2>
+		<ul>
+			<li>Conference Webmaster, <a href="http://www.raid-symposium.org/raid2013/">RAID'13</a></li>
+		</ul>
 	</div>
-
-	<div class="main" id="main">
-		<br />
-		<br />
-		<br />
-		<br />
-		<h1>David Tagatac</h1>
-		<img src="images/mug.png" alt=""></img><br />
-		<p class="text">
-			<font size="5">H</font>ello world, I am a computer science graduate student at <a href="http://www.cs.columbia.edu/">Columbia University in the City of New York</a>.  I am currently investigating the effects of synchronization scheduling on concurrent program insecurity.  Before joining Columbia in 2012, I assisted the <a href="http://npp.gsfc.nasa.gov/">Suomi NPP weather satellite</a> ground systems team with large data flow and distributed processing support.
-		</p>
-		<p class="text">
-			<font size="5">I</font>n a previous life, I was a condensed matter physicist at UCSD, earning a Materials Science M.S. there in 2007, and an Engineering Physics B.S. at Cornell University before that in 2006.
-		</p>
-	</div>
-
-	<!--dock menu JS options -->
-	<script type="text/javascript">
-		$(document).ready(
-			function()
-			{
-				$('#dock').Fisheye(
-					{
-						maxWidth: 50,
-						items: 'a',
-						itemsText: 'span',
-						container: '.dock-container',
-						itemWidth: 40,
-						proximity: 90,
-						halign : 'center'
-					}
-				)
-			}
-		);
-	</script>
 </body>
 </html>
