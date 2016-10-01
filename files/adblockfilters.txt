@@ -1,0 +1,12 @@
+[Adblock Plus 2.1]
+! Expires: 7 days
+@@http://www.gamespot.com/$document
+@@www.cnet.com/products/*$document
+@@https://app.liquidtalent.com/*$document
+@@https://www.youtube.com/edit$document
+@@http://www.usanetwork.com/*/videos/*$document
+androidjinn.com##DIV[id="arevicofancy-overlay"]
+www.answers.com##DIV[class="video_container"]
+news.yahoo.com##DIV[id="td-applet-sidekick-tv_container"]
+www.tech-recipes.com##OBJECT[id*="vdb_flash_"]
+www.topix.com##IFRAME[id="perform_video"]
